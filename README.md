@@ -53,6 +53,9 @@ demo-output/
 
 ## 검증
 
+13개 검사를 통과했으며, DXF 예제 5개를 분석해 최신 리비전 3개를 복사했습니다.
+실제 실행한 [HTML 보고서](examples/report.html)와 [CSV 목록](examples/manifest.csv)을 포함했습니다.
+
 ```powershell
 python -m unittest discover -s tests -v
 ```
